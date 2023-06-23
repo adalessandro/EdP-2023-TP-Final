@@ -4,8 +4,8 @@ Trabajo Práctico Final Entornos de Programación - TUIA 2023.
 
 ## Quick start
 
-Generate the pdf file by running:
+Generate the pdf file by just running:
 
 ```
-$ pandoc tp-enunciado.md -o tp-enunciado.pdf
+$ make
 ```
