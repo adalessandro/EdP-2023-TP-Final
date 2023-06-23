@@ -21,3 +21,8 @@ jobs:
           texlive-extra-utils texlive-latex-extra
     - name: make
       run: make
+    - uses: actions/upload-artifact@v3
+      with:
+        name: pdf-file
+        path: |
+          *.pdf
