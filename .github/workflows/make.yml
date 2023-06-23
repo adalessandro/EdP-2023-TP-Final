@@ -13,5 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Install Dependencies
+      run: |
+        sudo apt update
+        sudo apt install -y pandoc
     - name: make
       run: make
