@@ -79,10 +79,9 @@ personas *válidos* a cualquier combinación de palabras que empiecen con un let
 mayúscula y sigan por minúsculas.
 
 * `comprimir.sh`: Una vez procesadas las imágenes se debe generar un archivo
-con la lista de todas las personas, un total de personas femeninas y masculinas;
-y luego comprimir todo en un solo archivo. Entiéndase por persona femenina
-aquella cuya ultima letra del primer nombre es una letra "a". El archivo
-generado debe poder accederse fuera del contenedor.
+con la lista de todas las personas, un archivo con el total de aquellas cuya última letra del nombre está terminado con "a"
+y luego comprimir tanto las imagenes como el archivo con el total en un solo archivo.
+El archivo generado debe poder accederse fuera del contenedor.
 
 * `menu.sh`: Debe incluirse un menú para elegir cada una de las opciones
 anteriores.
