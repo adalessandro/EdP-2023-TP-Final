@@ -120,3 +120,6 @@ lograr la transformación planteada en este TP. Puede utilizarse el comando:
 convert entrada.jpg -gravity center -resize 512x512+0+0 \
 -extent 512x512 salida.jpg
 ```
+
+Recomendación para la suma de verificación
+: Se recomienda usar la opción `--check` del programa que usen para hacer la suma de verificación.
