@@ -72,7 +72,7 @@ generar un archivo con su suma de verificación.
 las imágenes comprimidas y otro con una suma de verificación). Si ocurrió algún
 error se debe informar al usuario de lo contrario se procede a descomprimir.
 
-* `procesar.sh`: Se deberán recortar las imágenes a una resolución de 512*512
+* `procesar.sh`: Se deberán recortar las imágenes a una resolución de `512*512`
 con alguna utilidad como `imagemagick`. Solamente deben procesarse aquellas
 imágenes que tengan nombres de personas. Entiéndase por nombres de personas a
 cualquier combinación de palabras que empiecen con mayúsculas y sigan por
