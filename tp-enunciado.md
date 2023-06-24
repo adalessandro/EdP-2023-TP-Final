@@ -39,10 +39,10 @@ El trabajo consiste en generar un contenedor que al ejecutarse presente un menú
 de opciones para procesar un lote de imágenes. Deberán editar un `Dockerfile` y
 construir una imagen.
 
-Las imágenes a analizar debe ser descargadas o generadas desde internet y deben
-almacenarse dentro contenedor para su posterior análisis. Luego del análisis,
+Las imágenes a analizar deben ser descargadas o generadas desde internet y deben
+almacenarse dentro  de un contenedor para su posterior análisis. Luego del análisis,
 deberá generarse un archivo disponible fuera del contenedor.
-
+ 
 Tanto los scripts, como el `Dockerfile`, deben estar en el repositorio gitlab o
 github que creen para realizar el desarrollo en equipo.
 
