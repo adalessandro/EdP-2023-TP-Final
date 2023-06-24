@@ -85,7 +85,7 @@ mayúscula y sigan por minúsculas.
   * generar un archivo con el total de personas cuyo nombre finaliza con la
     letra `a`.
   * por último, generar un archivo comprimido que incluya los archivos
-    generados en los items anteriores y *todas* las imagenes. El archivo
+    generados en los items anteriores y *todas* las imagénes. El archivo
     comprimido debe poder accederse desde fuera del contenedor.
 
 * `menu.sh`: Debe incluirse un menú para elegir cada una de las opciones
