@@ -74,9 +74,9 @@ error se debe informar al usuario de lo contrario se procede a descomprimir.
 
 * `procesar.sh`: Se deberán recortar las imágenes a una resolución de `512*512`
 con alguna utilidad como `imagemagick`. Solamente deben procesarse aquellas
-imágenes que tengan nombres de personas. Entiéndase por nombres de personas a
-cualquier combinación de palabras que empiecen con mayúsculas y sigan por
-minúsculas.
+imágenes que tengan nombres de personas *válidos*. Entiéndase por nombres de
+personas *válidos* a cualquier combinación de palabras que empiecen con un letra
+mayúscula y sigan por minúsculas.
 
 * `comprimir.sh`: Una vez procesadas las imágenes se debe generar un archivo
 con la lista de todas las personas, un total de personas femeninas y masculinas;
