@@ -7,8 +7,8 @@
 El objetivo del trabajo practico es diseñar y escribir un programa para procesar
 un lote de imágenes. Este programa consta de tres partes principales:
 
-1. En primer lugar se debe poder elegir entre descargar las imágenes, o
-generarlas a través de un servicio web.
+1. En primer lugar se debe poder generar y descargar las imágenes a través de un
+servicio web.
 2. Luego se debe aplicar una transformación solamente a las imágenes de
 personas.
 3. Finalmente se debe generar un archivo comprimido con las imágenes procesadas.
@@ -68,10 +68,9 @@ argumento cuantas imagenes generar y se deben asignar nombres de archivo al azar
 de una lista de nombres de personas. Luego se deben comprimir las imágenes, y
 generar un archivo con su suma de verificación.
 
-* `descargar.sh`: Descarga un archivo comprimido de imágenes. De debe poder
-indicar por argumento dos archivos (uno con las imágenes y otro con una suma de
-verificación). Si ocurrió algún error se debe informar al usuario de lo
-contrario se procede a descomprimir.
+* `descomprimir.sh`: Se debe poder indicar por argumento dos archivos (uno con
+las imágenes comprimidas y otro con una suma de verificación). Si ocurrió algún
+error se debe informar al usuario de lo contrario se procede a descomprimir.
 
 * `procesar.sh`: Se deberán recortar las imágenes a una resolución de 512*512
 con alguna utilidad como `imagemagick`. Solamente deben procesarse aquellas
