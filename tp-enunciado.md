@@ -69,9 +69,14 @@ argumento cuantas imágenes generar y se deben asignar nombres de archivo al aza
 de una lista de nombres de personas. Luego se deben comprimir las imágenes, y
 generar un archivo con su suma de verificación.
 
-* `descomprimir.sh`: Se debe poder indicar por argumento dos archivos (uno con
-las imágenes comprimidas y otro con una suma de verificación). Si ocurrió algún
-error se debe informar al usuario de lo contrario se procede a descomprimir.
+* `descargar.sh`: Se deberá indicar por argumento dos url (una que será para
+las imágenes y otro con una suma de verificación). El script debe descargar ambos
+y verificar que la suma de verificación del primer argumento es igual a la indicada
+en el segundo. Si ocurrió algún error se debe informar al usuario.
+
+* `descomprimir.sh`: Deberá verificar que exista el archivo que se descargó o se
+creó con los scripts anteriores y descomprimirlo (definir un nombre común para ambos).
+Si ocurre algún error se debe informar al usuario.
 
 * `procesar.sh`: Se deberán recortar las imágenes a una resolución de `512*512`
 con alguna utilidad como `imagemagick`. Solamente deben procesarse aquellas
