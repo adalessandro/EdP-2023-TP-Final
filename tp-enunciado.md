@@ -78,10 +78,14 @@ imágenes que tengan nombres de personas *válidos*. Entiéndase por nombres de
 personas *válidos* a cualquier combinación de palabras que empiecen con un letra
 mayúscula y sigan por minúsculas.
 
-* `comprimir.sh`: Una vez procesadas las imágenes se debe generar un archivo
-con la lista de todas las personas, un archivo con el total de aquellas cuya última letra del nombre está terminado con "a"
-y luego comprimir tanto las imagenes como el archivo con el total en un solo archivo.
-El archivo generado debe poder accederse fuera del contenedor.
+* `comprimir.sh`: Finalmente, luego de procesadas las imágenes, se debe:
+  * generar un archivo con la lista de nombres de todas las imágenes.
+  * generar un archivo con la lista de nombres válidos.
+  * generar un archivo con el total de personas cuyo nombre finaliza con la
+    letra `a`.
+  * por último, generar un archivo comprimido que incluya los archivos
+    generados en los items anteriores y *todas* las imagenes. El archivo
+    comprimido debe poder accederse desde fuera del contenedor.
 
 * `menu.sh`: Debe incluirse un menú para elegir cada una de las opciones
 anteriores.
