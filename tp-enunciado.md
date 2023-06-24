@@ -98,7 +98,7 @@ pertenece.
 
 Nombres de personas
 : El siguiente dataset
-[https://raw.githubusercontent.com/fernandezpablo85/name_suggestions/master/assets/dict.csv](https://raw.githubusercontent.com/fernandezpablo85/name_suggestions/master/assets/dict.csv)
+[https://raw.githubusercontent.com/adalessandro/EdP-2023-TP-Final/main/dict.csv](https://raw.githubusercontent.com/adalessandro/EdP-2023-TP-Final/main/dict.csv)
 contiene una lista de nombres de personas que pueden utilizarse en los scripts.
 
 Imagemagick
