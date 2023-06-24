@@ -5,7 +5,7 @@
 
 ### Descripción
 
-El objetivo del trabajo practico es diseñar y escribir un programa para procesar
+El objetivo del trabajo práctico es diseñar y escribir un programa para procesar
 un lote de imágenes. Este programa consta de tres partes principales:
 
 1. En primer lugar se debe poder generar y descargar las imágenes a través de un
