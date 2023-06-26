@@ -40,9 +40,9 @@ de opciones para procesar un lote de imágenes. Deberán editar un `Dockerfile` 
 construir una imagen.
 
 Las imágenes a analizar deben ser descargadas o generadas desde internet y deben
-almacenarse dentro  de un contenedor para su posterior análisis. Luego del análisis,
-deberá generarse un archivo disponible fuera del contenedor.
- 
+almacenarse dentro de un contenedor para su posterior análisis. Luego del
+análisis, deberá generarse un archivo disponible fuera del contenedor.
+
 Tanto los scripts, como el `Dockerfile`, deben estar en el repositorio gitlab o
 github que creen para realizar el desarrollo en equipo.
 
@@ -85,7 +85,7 @@ mayúscula y sigan por minúsculas.
   * generar un archivo con el total de personas cuyo nombre finaliza con la
     letra `a`.
   * por último, generar un archivo comprimido que incluya los archivos
-    generados en los items anteriores y *todas* las imagénes. El archivo
+    generados en los items anteriores y *todas* las imágenes. El archivo
     comprimido debe poder accederse desde fuera del contenedor.
 
 * `menu.sh`: Debe incluirse un menú para elegir cada una de las opciones
@@ -94,7 +94,7 @@ anteriores.
 ### Herramientas útiles
 
 Generación de imágenes
-: Para generar imagenes de personas, puede utilizarse el siguiente enlace:
+: Para generar imágenes de personas, puede utilizarse el siguiente enlace:
 [https://source.unsplash.com/random/900%C3%97700/?person](https://source.unsplash.com/random/900%C3%97700/?person).
 Pueden modificarse tanto las dimensiones de la imágen como la clase a la cual
 pertenece.
