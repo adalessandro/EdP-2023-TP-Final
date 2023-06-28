@@ -6,13 +6,16 @@
 ### Descripción
 
 El objetivo del trabajo práctico es diseñar y escribir un programa para procesar
-un lote de imágenes. Este programa consta de tres partes principales:
+un lote de imágenes. Este programa consta de cuatro partes principales:
 
-1. En primer lugar se debe poder generar y descargar las imágenes a través de un
-servicio web.
-2. Luego se debe aplicar una transformación solamente a las imágenes de
-personas.
-3. Finalmente se debe generar un archivo comprimido con las imágenes procesadas.
+1. En primer lugar, para obtener un conjunto de imágenes se debe poder elegir
+entre generar el conjunto descargando las imágenes individualmente o descargarlas
+desde un servicio web con su suma de verificación, verificando la misma.
+2. Se presentará una opción para descomprimir un archivo con imágenes.
+3. Luego se debe aplicar una transformación solamente a las imágenes de personas.
+4. Finalmente se debe generar un archivo comprimido con las imágenes procesadas
+y algunos datos extra.
+
 
 Todo el trabajo debe ser realizado bajo control de versiones, con participación
 de todos los integrantes y debe ejecutarse dentro de un contenedor.
@@ -69,9 +72,14 @@ argumento cuantas imágenes generar y se deben asignar nombres de archivo al aza
 de una lista de nombres de personas. Luego se deben comprimir las imágenes, y
 generar un archivo con su suma de verificación.
 
-* `descomprimir.sh`: Se debe poder indicar por argumento dos archivos (uno con
-las imágenes comprimidas y otro con una suma de verificación). Si ocurrió algún
-error se debe informar al usuario de lo contrario se procede a descomprimir.
+* `descargar.sh`: Se deberá indicar por argumento dos url (una que será para
+las imágenes y otro con una suma de verificación). El script debe descargar ambos
+y verificar que la suma de verificación del primer argumento es igual a la indicada
+en el segundo. Si ocurrió algún error se debe informar al usuario.
+
+* `descomprimir.sh`: Deberá verificar que exista el archivo que se descargó o se
+creó con los scripts anteriores y descomprimirlo (definir un nombre común para ambos).
+Si ocurre algún error se debe informar al usuario.
 
 * `procesar.sh`: Se deberán recortar las imágenes a una resolución de `512*512`
 con alguna utilidad como `imagemagick`. Solamente deben procesarse aquellas
@@ -95,7 +103,7 @@ anteriores.
 
 Generación de imágenes
 : Para generar imágenes de personas, puede utilizarse el siguiente enlace:
-[https://source.unsplash.com/random/900%C3%97700/?person](https://source.unsplash.com/random/900%C3%97700/?person).
+[https://thispersondoesnotexist.com/](https://thispersondoesnotexist.com/).
 Pueden modificarse tanto las dimensiones de la imágen como la clase a la cual
 pertenece.
 
@@ -112,3 +120,6 @@ lograr la transformación planteada en este TP. Puede utilizarse el comando:
 convert entrada.jpg -gravity center -resize 512x512+0+0 \
 -extent 512x512 salida.jpg
 ```
+
+Recomendación para la suma de verificación
+: Se recomienda usar la opción `--check` del programa que usen para hacer la suma de verificación.
