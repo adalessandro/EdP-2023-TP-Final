@@ -103,7 +103,7 @@ anteriores.
 
 Generación de imágenes
 : Para generar imágenes de personas, puede utilizarse el siguiente enlace:
-[https://source.unsplash.com/random/900%C3%97700/?person](https://source.unsplash.com/random/900%C3%97700/?person).
+[https://thispersondoesnotexist.com/](https://thispersondoesnotexist.com/).
 Pueden modificarse tanto las dimensiones de la imágen como la clase a la cual
 pertenece.
 
